@@ -5,11 +5,10 @@ body{
 
 #allPage{
 	font-family:Calibri;
+	background-color: beige;
 }
 
 #nameTitle{
-	color:white;
-	background-color:blue;
 	text-align:center;
 }
 
