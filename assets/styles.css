@@ -1,0 +1,21 @@
+body{
+	margin-left:20%;
+	margin-right:20%;
+}
+
+.nameTitle{
+	text-align:center;
+}
+
+.subTitle{
+	text-align:center;
+}
+
+.contentHeader{
+	font-weight:bold;
+	text-align:center;
+}
+
+.banlistImg {
+	width: 60vw;
+}

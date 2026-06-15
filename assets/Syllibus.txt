@@ -1,0 +1,66 @@
+Home
+	0 Getting Started 
+		0. What You Need To Start
+		0. Where To Play
+		
+	1 Play Level 1
+		1. Beginner Deck Bulding
+		1. Sleeves
+		1. Reading Pokemon Cards
+			- Name
+			- HP
+			- Stage
+			- Abilities
+			- Attacks
+			- Retreat Cost
+			- Weakness/Resistance
+		1. Reading Energy Cards
+		1. Reading Item Cards
+		1. Reading Tool Cards
+		1. Reading Supporter Cards
+		1. Reading Stadium Cards
+		1. Shuffling
+		1. Setting Up For Play
+		1. Mulligans
+		1. What You Can Do On Your Turn
+			- Playing Pokemon
+				- Evolving
+			- Attaching Energy
+			- Playing Trainer Cards
+			- Retreating
+			- Attacking
+		1. What You Can't Do On Your First Turn
+		1. Pokemon Checkup
+		1. Status Conditions
+		1. Win Conditions
+		1. Good Sportsmanship
+		1. Resolving Complicated Effects
+		1. Deck Legality & Set Rotation
+		1. Getting Cards
+		1. Proxies
+		
+	2 Play Level 2
+		2. Intermediate Deck Bulding
+		2. Build & Battle Format / Pre-realease Events
+		2. Netdecking
+		2. Time Rules
+		2. Conflicting Abilities
+		2. Prize Checking
+		2. Steps of Attacking
+		
+	3 Play Level 3
+		3. Advanced Deck Building
+		3. Effect Damage
+		3. Copying Attacks
+		3. Understanding the Prize Trade
+		3. Taking Half-Mesures
+		3. Bench Space as a Resource
+		3. Decklists
+		3. "Why don't you just play the best deck?"
+		3. Attending Premier Events
+		3. Championship Points
+		
+	4 Misc.
+		4. Deck Building for Premier Events
+		4. Note Taking
+		4. Becoming a Professor/Orginizer
