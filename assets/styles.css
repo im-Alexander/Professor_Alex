@@ -1,10 +1,18 @@
-body{
+body {
+	margin: 0%;
+	background-color: ivory;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container{
 	margin-left:20%;
 	margin-right:20%;
 }
 
 .nameTitle{
 	text-align:center;
+	font-size: 3rem;
 }
 
 .subTitle{
@@ -18,4 +26,38 @@ body{
 
 .banlistImg {
 	width: 60vw;
+}
+
+.banlist ul {
+	list-style: none;
+}
+
+.banlist ul li{
+	margin-top: 10px;
+}
+
+.banner{
+	text-align: center;
+}
+
+.bannerLink {
+	font-size: 2rem;
+	color: #f8c3ff;
+	text-decoration: none;
+}
+
+.currentPage {
+	font-size: 2rem;
+	color: #888;
+	text-decoration: none;
+}
+
+.banner {
+	width: 100vw;
+	top: 0px;
+	height: fit-content;
+	background-color: #00340a;
+	font-family: 'Courier New', Courier, monospace;
+	color: aliceblue;
+	position: fixed;
 }
