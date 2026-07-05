@@ -5,39 +5,56 @@ body {
 
 }
 
-.container{
-	margin-left:20%;
-	margin-right:20%;
+.container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.nameTitle{
-	text-align:center;
+.nameTitle {
+	text-align: center;
 	font-size: 3rem;
+	font-family: "Playwrite AU TAS", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
-.subTitle{
-	text-align:center;
+.subTitle {
+	text-align: center;
 }
 
-.contentHeader{
-	font-weight:bold;
-	text-align:center;
+.contentHeader {
+	font-weight: bold;
+	text-align: center;
+}
+
+.banlistImgContainer{
+	align-self: center;
 }
 
 .banlistImg {
 	width: 60vw;
 }
 
+.banlist {
+	align-self: center;
+}
+
 .banlist ul {
 	list-style: none;
-}
-
-.banlist ul li{
-	margin-top: 10px;
-}
-
-.banner{
 	text-align: center;
+}
+
+.banlist ul li {
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.banner {
+	text-align: center;
+	z-index: 1;
 }
 
 .bannerLink {
@@ -60,4 +77,27 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 	color: aliceblue;
 	position: fixed;
+}
+
+@media (max-width: 600px) {
+	.nameTitle {
+		font-size: 2rem;
+	}
+
+	.bannerLink {
+		font-size: 1rem;
+	}
+
+	.currentPage {
+		font-size: 1rem;
+	}
+
+	.banlistImg {
+		width: 100vw;
+	}
+
+	.container {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
 }
