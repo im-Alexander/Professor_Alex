@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/styles.css" rel="stylesheet" type="text/css">
+    <link href="./decklist.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="../assets/images/favicon.gif" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+    <title>Prof. Alex - Decklists</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="titleBox">
+            <h1 class="nameTitle">Professor Alex</h1>
+        </div>
+
+        <div class="titleBox">
+            <div class="bannerItem">
+                <a class="bannerLink" href="../">Home</a>
+            </div>
+            <div class="bannerItem">
+                <a class="bannerLink" href="../banlist/">Advanced Format</a>
+            </div>
+            <div class="bannerItem">
+                <a class="currentPage" href="./">Decklists</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2 class="subTitle">Professor Alex's Decklists</h2>
+        <p>Here you will find Professor Alex's decklist choose an item below!</p>
+        <label for="decklist">Choose a decklist:</label>
+        <select id="decklist">
+            <option value="default">Please select...</option>
+            <option value="okidogi">Okidogi Barbaracle</option>
+            <option value="megaDarkrai">Mega Darkrai ex burn</option>
+        </select>
+        <div class="decklistConatiner">
+            <a class="imageLink">
+                <img class="decklistImg" alt="image of the deck list" />
+            </a>
+            
+            <ul></ul>
+        </div>
+    </div>
+    <script src="../index.js"></script>
+    <script src="./decklists.js"></script>
+</body>
+
+</html>
