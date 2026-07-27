@@ -3,6 +3,7 @@ var deckListConatiner = document.querySelector(".decklistConatiner");       // d
 var deckListImage = document.querySelector(".decklistImg");                 // deck list image
 var imageAnchor = document.querySelector(".imageLink");                     // image anchor tag
 var unorderedDeckList = document.querySelector(".decklistConatiner ul");    // the unordered list
+var limitlessTextLink = document.querySelector(".limitlessLink");           // the limitless TCG text link under image
 var builderString = "";     // used to store the deck list
 
 // decklists
@@ -82,6 +83,7 @@ function constructDeckList () {
     var deckListString = "";
     var imageLink = "";
     deckListImage.setAttribute("style", "visibility: visible;");
+    limitlessTextLink.innerHTML = "LimitlessTCG";
 
     switch (selectedDeckList.value) {
         case "okidogi":
@@ -97,13 +99,15 @@ function constructDeckList () {
         default:
             deckListImage.setAttribute("style", "visibility: hidden;");
             builderString = "";
+            limitlessTextLink.innerHTML = "";
+            break;
     }
 
     for (var i = 0; i < builderString.length; i++) {
         deckListString = deckListString + "<li>" + builderString[i] + "</li>";
     }
 
-    imageAnchor.setAttribute("href", imageLink)
+    imageAnchor.setAttribute("href", imageLink);
     deckListImage.setAttribute("src", "./decklistImages/" + selectedDeckList.value + ".png");
     unorderedDeckList.innerHTML = deckListString;
 }
