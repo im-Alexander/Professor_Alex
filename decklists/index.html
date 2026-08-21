@@ -11,10 +11,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <title>Prof. Alex - Decklists</title>
 
     <style>
+        ul {
+            padding-left: 0px;
+        }
+
         .decklistConatiner {
             display: flex;
             flex-direction: column;
@@ -30,6 +34,33 @@
         .decklistImg {
             margin: 10px;
             width: 60vw;
+        }
+
+        .copyDeckButton {
+            margin-bottom: 10px;
+        }
+
+        .copyDeckListDisplay {
+            background-color: aquamarine;
+            display: flex;
+            position: fixed;
+            z-index: 1;
+            width: 30vw;
+            height: 18%;
+            top: 70%;
+            margin-left: 35%;
+            margin-right: 35%;
+            font-size: 20px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            opacity: 90%;
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+
+        .copyDeckListDisplay p {
+            margin: 0px;
         }
 
         @media (max-width: 600px) {
@@ -69,19 +100,54 @@
         </select>
         <div class="decklistConatiner">
             <h3 class="deckTitle"></h3>
-            <a class="imageLink" target="_blank" rel="noopener noreferrer">
+            <a class="imageLink invisible" target="_blank" rel="noopener noreferrer">
                 <img class="decklistImg" alt="image of the deck list" />
                 <p class="limitlessLink"></p>
             </a>
-            <button class="copyDeckButton">Copy deck list</button>
+            <button class="copyDeckButton invisible">Copy deck list</button>
             <ul></ul>
         </div>
     </div>
+
+    <div class="copyDeckListDisplay invisible">
+        <p>Deck list copy successful! ✅</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../index.js"></script>
+    <script src="./decklistBuilder.js"></script>
     <script src="./decklists.js"></script>
 </body>
-<footer class="footer">
-    <p>Made with ❤️ not AI</p>
-</footer>
+
+<div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3"> <a href="/"
+                class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+                <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> </a>
+            <p class="text-body-secondary">©Prof. Alex 2026</p>
+        </div>
+        <div class="col mb-3">
+            <h5>Navigation</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://im-alexander.github.io/Professor_Alex/"
+                        class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="https://im-alexander.github.io/Professor_Alex/banlist/"
+                        class="nav-link p-0 text-body-secondary">Advanced Format</a></li>
+                <li class="nav-item mb-2"><a href="https://im-alexander.github.io/Professor_Alex/decklists/"
+                        class="nav-link p-0 text-body-secondary">Decklists</a></li>
+            </ul>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3"></div>
+    </footer>
+    <h6 class="legal">Prof. Alex is a unofficial site and is not affiliated or endorsed by The Pokémon Company
+        International, GAMEFREAK, Nintendo, or Creatures.
+        <br />This site is a collection of resources for the Pokémon Trading Card Game.
+        <br />Please support the original creators.
+    </h6>
+</div>
 
 </html>
