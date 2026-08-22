@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- Banner -->
     <div class="banner">
         <div class="titleBox">
             <h1 class="nameTitle">Professor Alex</h1>
@@ -32,14 +33,38 @@
                 <a class="bannerLink" href="./decklists/">Deck Lists</a>
             </div>
         </div>
-
     </div>
+
+    <!-- Navigation Cards -->
+    <!-- Note: make images 400px X 200px -->
     <div class="container">
         <h2 class="subTitle">Welcome to the classroom!</h2>
 
         <hr />
 
-        <a href="./banlist/">Advanced Format Banlist</a>
+        <div class="card-group">
+            <div class="card">
+                <a href="./banlist/">
+                    <img src="./assets/images/banlist_card.png" class="card-img-top" alt="A crossed out Dragapult">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Advanced Format</h5>
+                    <p class="card-text">Learn about Professor Alex's custom format. Check out the banlist and try
+                        to come up with some decks!</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="./decklists/">
+                    <img src="./assets/images/decklist_card.png" class="card-img-top" alt="collage of pokemon">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Decklists</h5>
+                    <p class="card-text">Try out some of Professor Alex's decks. Each deck is tested by Professor Alex
+                        himself.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
     <script src="./index.js"></script>
 </body>
